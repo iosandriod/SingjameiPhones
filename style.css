@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.store-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 5px solid green;
+}
+
+.store-name {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.country-selection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.login-btn {
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whatsapp-group {
+    background-color: #25D366;
+    padding: 10px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.whatsapp-group a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.whatsapp-group a i {
+    margin-right: 8px;
+}
+#games {
+    margin-top: 40px;
+}
+
+#games h2 {
+    border-bottom: 2px solid #6a1b9a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+.banner {
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    margin: 10px ;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+}
+
+.mySlides {
+    display: none;
+    height: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #121212;
+    border-radius: 10px;
+}
+
+.moving-text {
+    background-color: #fffff00;
+    color: #ffff00;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+.card {
+    background-color: #555;
+    border: 2px solid #555;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: calc(30% - 20px); /* Adjust to fit the text below */
+    object-fit: cover;
+    border-bottom: 1px solid #fff;
+    flex-grow: 1;
+}
+
+.card p {
+    margin: 10;
+    padding: 0px;
+    background-color: #fffff;
+  border-top: 1px solid #555;
+  width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid #abb2b9;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #fff;
+}
+
+.recharge {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0000ff;
+}
+
+.recharge-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.popular-games {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #3498db;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #25D366; /* WhatsApp green */
+}
+
+#instagram:hover {
+    color: #E1306C; /* Instagram pink */
+}
+
+#location:hover {
+    color: #FFBB33; /* Location icon color */
+}
+
+
+
+.store-name {
+    font-size: 1.2em; /* Adjust font size as needed */
+    color: gold; /* Set text color to gold */
+    font-weight: bold; /* Make text bold */
+    flex-grow: 1; /* Allow the text to take available space */
+    text-align: center; /* Center the text */
+}
+
+
+
+#games {
+    margin-top: 20px;
+    margin-left: 15px; /* Add left margin for gap */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Reduce padding (adjust as needed) */
+    text-align: center;
+}
